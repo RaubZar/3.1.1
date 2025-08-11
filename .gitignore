@@ -4,7 +4,8 @@
 *.iml
 *.ipr
 *.iws
-
+HELP.md
+.gitattributes
 ### Build ###
 target/
 out/
