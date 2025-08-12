@@ -14,7 +14,7 @@ public class UserDaoImp implements UserDao {
 
     @Override
     public List<User> getAllUsers() {
-        return entityManager.createQuery("SELECT u FROM CRUIDtoSPRINGboot.model.User u", User.class).getResultList();
+        return entityManager.createQuery("SELECT u FROM User u", User.class).getResultList();
     }
 
     @Override
